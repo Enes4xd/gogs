@@ -4,6 +4,7 @@ go 1.14
 
 require (
 	github.com/Masterminds/semver/v3 v3.1.1
+	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/editorconfig/editorconfig-core-go/v2 v2.4.1
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/go-macaron/binding v1.2.0
@@ -37,7 +38,7 @@ require (
 	github.com/olekukonko/tablewriter v0.0.4
 	github.com/pkg/errors v0.9.1
 	github.com/pquerna/otp v1.3.0
-	github.com/prometheus/client_golang v1.9.0
+	github.com/prometheus/client_golang v1.13.0
 	github.com/russross/blackfriday v1.6.0
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
 	github.com/satori/go.uuid v1.2.0
@@ -50,8 +51,7 @@ require (
 	github.com/unknwon/paginater v0.0.0-20170405233947-45e5d631308e
 	github.com/urfave/cli v1.22.5
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
-	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
-	golang.org/x/sys v0.0.0-20210903071746-97244b99971b // indirect
+	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
 	golang.org/x/text v0.3.7
 	gopkg.in/DATA-DOG/go-sqlmock.v2 v2.0.0-20180914054222-c19298f520d0
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
